@@ -32,19 +32,19 @@ redis:
 # oss配置
 # 目前仅支持阿里云的oss服务
 oss:
-  accessKeyId: <accessKeyId>
-  accessKeySecret: <accessKeySecret>
-  host: https://<pre-domain>.aliyuncs.com
-  bucket: <bucket>
-  region: <region> # eg. oss-cn-hangzhou
+  accessKeyId: LTAI4G4EJcmYqvzny8tpfWSe
+  accessKeySecret: r13TGhydqdRK4a3kbHxu0AmA53UHva
+  host: https://code-zuopai.oss-cn-hangzhou.aliyuncs.com
+  bucket: zuopai
+  region: oss-cn-hangzhou # eg. oss-cn-hangzhou
 #
 # smtp邮件发送服务配置
 mail:
-  host: <host> # smtp.mxhichina.com
-  port: <host> # eg. '465'
+  host: smtp.qq.com # smtp.mxhichina.com
+  port: 465 # eg. '465'
   secure: true # port 为465时，请尽量设置为true
-  user: <user> # eg. name@qq.com
-  pass: <pass> # password
+  user: 270048681@qq.com # eg. name@qq.com
+  pass: mgqzkienurbtbiig # password
 #
 # 钉钉告警机器人token，为空则不开启钉钉告警服务
 dingding:
