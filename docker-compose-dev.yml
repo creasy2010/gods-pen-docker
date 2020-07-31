@@ -65,6 +65,8 @@ services:
       ELASTICSEARCH_HOSTS: http://es:9200
   redis:
     image: redis
+    ports:
+      - "127.0.0.1:6379:6379"
 volumes:
   static-html:
   mysqldb:
